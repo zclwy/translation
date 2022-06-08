@@ -1,0 +1,32 @@
+{
+    "name": "zclwy/translation",
+    "type": "library",
+    "description": "translate field，将字段变更翻译成相应文案",
+    "keywords": [
+        "translate",
+        "translate field"
+    ],
+    "authors": [
+        {
+            "name": "zhangchunlong",
+            "email": "zcllonghere@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zclwy\\Translation\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zclwy\\Translation\\Tests\\": "tests/"
+        }
+    }
+}
