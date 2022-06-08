@@ -2,6 +2,7 @@
     "name": "zclwy/translation",
     "type": "library",
     "description": "translate field，将字段变更翻译成相应文案",
+    "license": "MIT",
     "keywords": [
         "translate",
         "translate field"
